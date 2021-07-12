@@ -1,107 +1,13 @@
-/* geral */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Helvetica, sans-serif;
-    color: #323232;
-    border: none;
 }
 
-input, label{
-    display: block;
-    width: 100%;
-}
-
-input:focus, label:focus{
-    outline: none;
-}
-
-a{
-    color: #b10065;
-}
-
-body{
-    padding-top: 5vh; /* view height -> 5% da tela */
-    background-image: url(../img/Background09.png);
-    background-size: cover;
-    background-position-y: -100px;
-}
-
-/* form */
-#main-container{
-    width: 500px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #fff;
-    border-radius: 10px;
-    padding: 25px;
-}
-
-#main-container h1{
-    text-align: center;
-    margin-bottom: 25px;
-    font-size: 1.6rem; /* Adaptada ao elemento root */
-}
-
-form{
+.container {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
-.full-box{
-    flex: 1 1 100%;
-    position: relative;
-}
-
-.half-box{
-    flex: 1 1 45%;
-    position: relative;
-}
-
-.spacing{
-    margin-right: 2.5%;
-}
-
-label{
-    font-weight: bold;
-    font-size: .8rem;
-}
-
-input{
-    border-bottom: 2px solid #323232;
-    padding: 10px;
-    font-size: .9rem;
-    margin-bottom: 40px;
-}
-
-input:focus{
-    border-color: #E60084;
-}
-
-input[type="Submit"]{
-    background-color: #ab0261;
-    color: #fff;
-    border: none;
-    border-radius: 20px;
-    height: 40px;
-    cursor: pointer;
-}
-
-#agreement, #agreement-label{
-    display: inline-block;
-    width: auto;
-}
-
-/* Validações */
-.error-validation{
-    color: #FF1A1A;
-    position: absolute;
-    top: 57px;
-    font-size: .8rem;
-}
-
-.template{
-    display: none;
-}
