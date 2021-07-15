@@ -14,5 +14,7 @@ btnSignup.addEventListener("click", function (){
 /* Animação CSS */
 
 @keyframes slidein {
-    
+    from {
+
+    }
 }
