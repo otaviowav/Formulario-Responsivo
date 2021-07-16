@@ -394,7 +394,7 @@ input:-webkit-autofill {
     }
 
     .first-column, .second-column {
-        width: 100%;
+        width: 90%;
     }
 
     .sign-in-js .content::before {
