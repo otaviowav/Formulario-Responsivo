@@ -37,7 +37,6 @@ body {
     height: 100%;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
-
     left: 0%;
 }
 
@@ -158,7 +157,6 @@ body {
     line-height: 35px;
     text-align: center;
     color: #8930a4;
-
 }
 
 .form {
@@ -347,7 +345,6 @@ input:-webkit-autofill {
         left: 60%;
         width: 40%;        
     }
- 
 }
 
 @keyframes slideout {
@@ -375,5 +372,4 @@ input:-webkit-autofill {
         left: 0;
         width: 40%;        
     }
- 
 }
