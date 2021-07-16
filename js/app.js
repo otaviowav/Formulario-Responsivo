@@ -10,17 +10,3 @@ btnSignin.addEventListener("click", function () {
 btnSignup.addEventListener("click", function (){
     body.className = "sign-up-js";
 });
-
-/* Animação CSS */
-
-@keyframes slidein {
-    from {
-      margin-left: 100%;
-      width: 300%;
-    }
-  
-    to {
-      margin-left: 0%;
-      width: 100%;
-    }
-  }
